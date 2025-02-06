@@ -30,6 +30,18 @@ class GPTConfig:
 
 
 class GPT(nn.Module):
+    """
+    GPT model class inheriting from PyTorch's nn.Module.
+
+    Args:
+        config (GPTConfig): Configuration object for the GPT model.
+    """
     def _init_(self, config):
+        """
+        Initializes the GPT model with the given configuration.
+
+        Args:
+            config (GPTConfig): Configuration object for the GPT model.
+        """
         super().__init__()
         self.config = config
