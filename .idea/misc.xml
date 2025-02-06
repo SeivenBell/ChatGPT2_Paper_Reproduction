@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="ChatGPT2_Paper_Reproduction" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="ChatGPT2_Paper_Reproduction" project-jdk-type="Python SDK" />
+</project>
