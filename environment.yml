@@ -109,7 +109,7 @@ dependencies:
   - flask=3.0.3
   - fontconfig=2.14.1
   - fonttools=4.51.0
-  - freetype=2.12.1
+  - freetype=2.12.1mkl
   - frozenlist=1.4.0
   - fsspec=2024.3.1
   - gensim=4.3.2
