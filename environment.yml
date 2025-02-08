@@ -1,7 +1,9 @@
 name: mlway
 channels:
-  - defaults
   - conda-forge
+  - defaults
+  - huggingface
+  - pytorch
 dependencies:
   # Removed intel-openmp, mkl*, anaconda=2024.06, _libgcc_mutex, etc.
   # The rest are unchanged.
@@ -109,7 +111,7 @@ dependencies:
   - flask=3.0.3
   - fontconfig=2.14.1
   - fonttools=4.51.0
-  - freetype=2.12.1mkl
+  - freetype=2.12.1
   - frozenlist=1.4.0
   - fsspec=2024.3.1
   - gensim=4.3.2
@@ -446,5 +448,9 @@ dependencies:
   - zstd=1.5.5
   - pip:
       - torch==2.4.1
+      - torchvision
+      - torchaudio
+      - transformers
+      - "tokenizers>=0.20,<0.21"
       - torchinfo==1.8.0
       - torchviz==0.0.2
